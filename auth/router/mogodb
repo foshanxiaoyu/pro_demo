@@ -1,0 +1,16 @@
+mogodb 
+cluster-yu-shard-00-02.ixch7.gcp.mongodb.net:27017
+
+mongodb+srv://dev11:dev11@cluster-yu.ixch7.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+       
+       
+       
+        if(err) throw err;
+            var dbo = db.db("user");
+            dbo.collection('site').find({}).toArray(function(err,result){
+                if(err) throw err;
+                console.log(result);
+                db.close();
+            })
+    
