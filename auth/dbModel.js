@@ -12,5 +12,7 @@ const userSchema = mongoose.Schema({
 
 //Collection iniside the datebase
 
-module.exports = mongoose.model('user',userSchema)
+const USER = mongoose.model('user',userSchema);
+
+module.export = USER; 
 
