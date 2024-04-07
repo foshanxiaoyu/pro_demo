@@ -11,8 +11,8 @@ const app = express();
 
 app.use(bodyParser.json());
 
-// var dbUrl = 'mongodb+srv://dev11:devlllooo999@cluster-yu.ixch7.gcp.mongodb.net/cluster-yu-shard-00-02.ixch7.gcp.mongodb.net:27017/sample_weatherdata';
-var dbUrl = 'mongodb+srv://dev11:dev11@cluster-yu.ixch7.gcp.mongodb.net/cluster-yu-shard-00-02.ixch7.gcp.mongodb.net:27017/sample_weatherdata.user?retryWrites=true&w=majority';
+// var dbUrl =
+var dbUrl = 
 
 //Connect to DB
 mongoose.connect(dbUrl,
