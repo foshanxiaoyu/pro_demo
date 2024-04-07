@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const postsRoute = require('./routes/posts'); 
 
 //MongoDB URL
-// var dbUrl = 'mongodb+srv://dev11:dev11@cluster-yu.ixch7.gcp.mongodb.net/cluster-yu-shard-00-02.ixch7.gcp.mongodb.net:27017/sample_weatherdata.user?retryWrites=true&w=majority';
+// var dbUrl = '';
 
 //Middlewares
 app.use('/posts', postsRoute);
